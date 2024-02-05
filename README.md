@@ -11,6 +11,13 @@ As you need to be logged in on the Huawei site to get access to it.
 
 So this is a start for your Node-RED automation project.
 1. Import the code into Node-Red.
-2. Configure the Modbus read node to use your MODBUS ip address. ( Google this if you need help configuring your inverter to use MODBUS over IP)
-3. Begin to read.
+   - For each of the imported json files, there will be dependecies to other Node-RED nodes that you haven't downloaded.
+   Note down what you need when importing it as Node-RED will tell you what is missing.
+3. Configure the Modbus read node to use your MODBUS ip address. ( Google this if you need help configuring your inverter to use MODBUS over IP)
+4. Begin to read.
    
+
+Dependencies:
+
+- https://flows.nodered.org/node/node-red-contrib-modbus
+- https://flows.nodered.org/node/node-red-contrib-cron-plus
